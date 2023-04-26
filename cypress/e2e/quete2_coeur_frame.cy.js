@@ -1,5 +1,3 @@
-
-
 describe('Inscription au site', () => {
 
   beforeEach(() =>{
@@ -47,4 +45,5 @@ describe('User authentication', () => {
         cy.get('#signin-password').type('Mypassword8')
         cy.get('button[data-qa=signin-submit-button]').click()
   })   
+
 })
